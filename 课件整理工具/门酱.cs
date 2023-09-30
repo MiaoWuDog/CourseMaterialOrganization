@@ -23,8 +23,8 @@ namespace 课件整理工具
             启动次数2++;
             if (启动次数2==10)
             {
-                DialogResult 启动结果 = MessageBox.Show("你成功和门酱结婚了！婚礼？启动！", "获得成就 - 还真结婚了");
-                if (启动结果==DialogResult.OK)
+                DialogResult result = MessageBox.Show("你成功和门酱结婚了！婚礼？启动！", "获得成就 - 还真结婚了");
+                if (result==DialogResult.OK)
                 {
                     
                     this.Close();

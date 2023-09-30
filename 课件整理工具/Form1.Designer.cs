@@ -38,6 +38,7 @@
             this.uiButton5 = new Sunny.UI.UIButton();
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.uiStyleManager1 = new Sunny.UI.UIStyleManager(this.components);
             this.SuspendLayout();
             // 
             // uiButton1
@@ -169,6 +170,7 @@
         private Sunny.UI.UIButton uiButton5;
         private Sunny.UI.UILabel uiLabel1;
         private System.Windows.Forms.Timer timer1;
+        private Sunny.UI.UIStyleManager uiStyleManager1;
     }
 }
 
